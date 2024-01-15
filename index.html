@@ -3,6 +3,7 @@
   <head>
     <title>modal</title>
     <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./index.css" />
     <link rel="stylesheet" href="./style.css" />
     <link
       rel="stylesheet"
@@ -33,6 +34,59 @@
         <button class="close-btn"><i class="fas fa-times"></i></button>
       </div>
     </div>
-    <script src="./app.js"></script>
+    <button class="sidebar-toggle" id="main">
+      <i class="fas fa-bars"></i>
+    </button>
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <img src="./logo.svg" class="logo" alt="" />
+        <button class="closing-btn">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <ul class="links">
+        <li>
+          <a href="/">Home</a>
+        </li>
+        <li>
+          <a href="#">About</a>
+        </li>
+        <li>
+          <a href="#">Projects</a>
+        </li>
+        <li>
+          <a href="#">Contact</a>
+        </li>
+      </ul>
+      <!-- social media -->
+      <ul class="social-icons">
+        <li>
+          <a href="https://www.twitter.com">
+            <i class="fab fa-facebook"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com">
+            <i class="fab fa-behance"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com">
+            <i class="fab fa-sketch"></i>
+          </a>
+        </li>
+      </ul>
+    </aside>
+    <script src="./index.js"></script>
   </body>
 </html>
