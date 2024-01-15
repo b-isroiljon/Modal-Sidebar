@@ -22,7 +22,7 @@ h3{
 }
   .hero {
     min-height: 100vh;
-    background: url(./images/pexels.jpg) center/cover no-repeat;
+    background: url(../images/pexels.jpg) center/cover no-repeat;
     display: grid;
     place-items: center;
 }
